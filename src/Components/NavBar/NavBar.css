@@ -1,0 +1,24 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(360deg, transparent, rgba(0, 0, 0, 0.99), #111); /* Increased opacity */
+    /* transition: background 0.5s ease; Smooth transition */
+    z-index: 10;
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+    width: 80px;
+}
+
+.avatar {
+    position: relative;
+    right: 20px;
+    width: 30px;
+}
